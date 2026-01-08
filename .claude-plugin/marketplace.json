@@ -1,0 +1,15 @@
+{
+  "name": "cc-plugins",
+  "description": "A collection of plugins for Claude Code by @haardikk21",
+  "owner": {
+    "name": "Haardik H"
+  },
+  "repository": "https://github.com/haardikk21/cc-plugins",
+  "plugins": [
+    {
+      "name": "solidity-lsp",
+      "source": "./solidity-lsp-plugin",
+      "description": "Solidity language server plugin for Claude Code"
+    }
+  ]
+}

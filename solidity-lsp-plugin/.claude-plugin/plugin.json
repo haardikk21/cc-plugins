@@ -1,0 +1,29 @@
+{
+  "name": "solidity-lsp",
+  "description": "Solidity language server plugin for Claude Code",
+  "version": "1.0.0",
+  "author": {
+    "name": "Haardik H",
+    "url": "https://github.com/haardikk21"
+  },
+  "repository": "https://github.com/haardikk21/cc-plugins/tree/main/solidity-lsp-plugin",
+  "license": "MIT",
+  "keywords": [
+    "solidity",
+    "lsp",
+    "development",
+    "ethereum",
+    "evm"
+  ],
+  "lspServers": {
+    "solidity": {
+      "command": "vscode-solidity-server",
+      "args": [
+        "--stdio"
+      ],
+      "extensionToLanguage": {
+        ".sol": "solidity"
+      }
+    }
+  }
+}
