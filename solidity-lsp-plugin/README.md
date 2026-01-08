@@ -6,12 +6,6 @@ Solidity language server for Claude Code, providing code intelligence and diagno
 
 `.sol`
 
-## Installing the plugin
-
-[!NOTE]
-Alongside the plugin, you must also have the underlying Solidity language server installed. If you don't already have it installed, follow the instructions in the next section to install it.
-
-
 ## Installing the LSP
 
 ### Via npm

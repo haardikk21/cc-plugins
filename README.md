@@ -15,8 +15,8 @@ You can then browse the plugins available within the marketplace, or install spe
 
 ### Solidity LSP Plugin
 
-[!NOTE]
-Alongside the plugin, you must also have the underlying Solidity language server installed. If you don't already have it installed, follow [the instructions here](./solidity-lsp-plugin/README.md)
+> [!NOTE]
+> Alongside the plugin, you must also have the underlying Solidity language server installed. If you don't already have it installed, follow [the instructions here](./solidity-lsp-plugin/README.md)
 
 ```
 /plugin install solidity-lsp
